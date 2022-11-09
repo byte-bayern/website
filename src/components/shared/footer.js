@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 import logo from "../../assets/img/components/brand/logo-color.svg";
+import stmd from "../../assets/img/components/brand/stmdLogo.svg";
 import { Up } from "../../assets/img/icons";
 
 class Footer extends React.Component {
@@ -44,6 +45,16 @@ class Footer extends React.Component {
                 <Link to="/accessibility">Barrierefreiheit</Link>
               </li>
             </ul>
+            
+            <div className="body-1 justify-end pt-50">
+              <div>
+                Gefördert durch: 
+              </div>
+              <div>
+                <img src={stmd} className="img-w-250"/>
+              </div>
+            </div>
+
           </div>
           <div className="footer-item footer-button ic-40 xl:ic-80">
             <a href="#header" id="footer-button">
@@ -51,6 +62,8 @@ class Footer extends React.Component {
               <div className="btn-text body-1">Nach oben</div>
             </a>
           </div>
+
+
         </div>
       </footer>
     );
