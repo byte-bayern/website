@@ -1,5 +1,5 @@
 import React from "react";
-import header from "../../../assets/img/components/byte/Byte.png";
+import header from "../../../assets/img/components/byte/byte.png";
 
 export default function Byte() {
   return (
