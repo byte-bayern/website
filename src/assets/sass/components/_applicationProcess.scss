@@ -1,0 +1,20 @@
+$application-process-switch-breakpoint: md;
+
+.application-process {
+  p {
+    word-wrap: break-word;
+  }
+
+  &-image {
+    overflow: hidden;
+    position: relative;
+    background-position-x: background-focus(2, 75, 75);
+    background-repeat: no-repeat;
+  }
+
+  &-button {
+    a {
+      display: inline-block;
+    }
+  }
+}

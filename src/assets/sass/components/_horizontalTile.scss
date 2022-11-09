@@ -1,0 +1,28 @@
+.horizontal-tile {
+  &--divider--top {
+    border-bottom: 2px solid;
+  }
+
+  &--divider--bottom {
+    border-top: 2px solid;
+  }
+
+  &--button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .icon > svg {
+      width: 128px;
+      height: auto;
+      max-width: 100%;
+    }
+  }
+}
+
+.icon.left {
+  order: 1;
+}
+.left {
+  order: 2;
+}

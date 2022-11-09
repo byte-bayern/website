@@ -1,0 +1,120 @@
+.section-footer {
+  overflow: hidden;
+  background-color: $black;
+}
+
+.footer-wrapper {
+  display: grid;
+  grid-row-gap: 2rem;
+  row-gap: 2rem;
+  grid-template-columns: 2fr 1fr 1fr 1fr min-content;
+  grid-template-rows: 0.5fr 1fr;
+  grid-template-areas:
+    "logo excerpt excerpt . button"
+    "contact legal legal legal button";
+  color: $white;
+}
+
+.footer-item {
+  font-family: "Work Sans", sans-serif;
+  font-size: 1.2rem;
+  max-width: 100vw;
+
+  a,
+  a:link,
+  a:hover {
+    text-decoration: inherit;
+    color: inherit;
+  }
+
+  &.logo {
+    grid-area: logo;
+
+    img {
+      width: min(50vw, 250px);
+    }
+  }
+
+  &.contact {
+    grid-area: contact;
+    display: flex;
+    flex-direction: column;
+
+    .email {
+      margin-top: 0;
+      color: $blue;
+      font-size: 1rem;
+      overflow-wrap: break-word;
+    }
+
+    .address {
+      font-size: 1rem;
+      color: $white;
+      line-height: 1.5em;
+    }
+  }
+
+  &.excerpt {
+    grid-area: excerpt;
+  }
+
+  &.legal {
+    grid-area: legal;
+    font-weight: bold;
+  }
+
+  &.footer-button {
+    grid-area: button;
+
+    #footer-button {
+      display: flex;
+      flex-direction: column;
+      text-decoration: none;
+      color: inherit;
+
+      .icon {
+        width: var(--pixel-size, 80px);
+        margin-top: 1rem;
+        background-color: $white;
+        align-self: center;
+      }
+
+      .btn-text {
+        text-transform: uppercase;
+        white-space: nowrap;
+        transform: translateY(100%) rotate(-90deg);
+        padding-right: 4rem;
+      }
+    }
+  }
+}
+
+// MOBILE
+
+@include media-to(lg) {
+  .footer-wrapper {
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: repeat(4, min-content);
+    grid-template-areas:
+      "logo button"
+      "excerpt button"
+      "legal ."
+      "contact .";
+  }
+}
+
+@include media-to(sm) {
+  .footer-wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, min-content);
+    grid-template-areas:
+      "logo "
+      "excerpt "
+      "legal "
+      "contact ";
+  }
+
+  .footer-item.footer-button #footer-button {
+    display: none;
+  }
+}

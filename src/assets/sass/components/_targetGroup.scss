@@ -1,0 +1,14 @@
+$targetGroups-switch-breakpoint: md;
+
+@include media-to($targetGroups-switch-breakpoint) {
+    #talent {
+      .button {
+        --grid-template-areas: "icon vyellow ." !important;
+      }
+    }
+    #verwaltung {
+      .button {
+        --grid-template-areas: "icon vred ." !important;
+      }
+    }
+}

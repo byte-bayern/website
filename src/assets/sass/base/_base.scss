@@ -1,0 +1,54 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+a {
+  color: $black;
+  text-decoration: none;
+}
+/* Contrast */
+.contrast .tc-blue {
+  color: black;
+}
+
+.contrast {
+  .bc-blue {
+    background-color: $black !important;
+  }
+}
+
+.contrast .font-size-up,
+.contrast .font-size-down {
+  background-color: $black !important;
+}
+.contrast .quote.left > .body-1 > .quote-text > .quote-text-bottom {
+  background-color: $black !important;
+  color: $white;
+}
+/* Xxl screens */
+@include media-up(xxl) {
+  .content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+  }
+  .content {
+    margin: auto !important;
+    max-width: 2560px;
+    width: 90%;
+  }
+  section {
+    width: 100%;
+  }
+}

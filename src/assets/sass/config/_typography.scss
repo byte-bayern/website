@@ -1,0 +1,225 @@
+/*
+  Typographic Setup
+*/
+/* We are self-hosting the fonts. All formats [eot,woff,woff2,ttf,svg] are included as old browers still need to be supported. */
+/* work-sans-regular - latin */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/work-sans-v13-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/work-sans-v13-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/work-sans-v13-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/work-sans-v13-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/work-sans-v13-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/work-sans-v13-latin-regular.svg#WorkSans') format('svg'); /* Legacy iOS */
+}
+/* work-sans-600 - latin */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/work-sans-v13-latin-600.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/work-sans-v13-latin-600.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/work-sans-v13-latin-600.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/work-sans-v13-latin-600.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/work-sans-v13-latin-600.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/work-sans-v13-latin-600.svg#WorkSans') format('svg'); /* Legacy iOS */
+}
+/* work-sans-700 - latin */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/work-sans-v13-latin-700.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/work-sans-v13-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/work-sans-v13-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/work-sans-v13-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/work-sans-v13-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/work-sans-v13-latin-700.svg#WorkSans') format('svg'); /* Legacy iOS */
+}
+/* work-sans-900 - latin */
+@font-face {
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/work-sans-v13-latin-900.eot'); /* IE9 Compat Modes */
+  src: local(''),
+       url('../fonts/work-sans-v13-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/work-sans-v13-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/work-sans-v13-latin-900.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/work-sans-v13-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/work-sans-v13-latin-900.svg#WorkSans') format('svg'); /* Legacy iOS */
+}
+
+$font-family-default: "Work Sans", sans-serif;
+
+//Weight
+$font-weight-normal: 400;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+$font-weight-default: $font-weight-normal;
+
+//Height
+$line-height-sm: 0.9;
+$line-height-md: 1.1;
+$line-height-default: 1.4;
+$line-height-lg: 1.5;
+
+// Sizes
+$font-sizes: (
+  10: (
+    calc(10 / 16) * 1rem,
+  ),
+  12: (
+    calc(12 / 16) * 1rem,
+  ),
+  15: (
+    calc(15 / 16) * 1rem,
+  ),
+  16: (
+    calc(16 / 16) * 1rem,
+  ),
+  17: (
+    calc(17 / 16) * 1rem,
+  ),
+  20: (
+    calc(20 / 16) * 1rem,
+  ),
+  25: (
+    calc(25 / 16) * 1rem,
+  ),
+  30: (
+    calc(30 / 16) * 1rem,
+  ),
+  35: (
+    calc(35 / 16) * 1rem,
+  ),
+  40: (
+    calc(40 / 16) * 1rem,
+  ),
+  50: (
+    calc(50 / 16) * 1rem,
+  ),
+  60: (
+    calc(60 / 16) * 1rem,
+  ),
+  70: (
+    calc(70 / 16) * 1rem,
+  ),
+  90: (
+    calc(90 / 16) * 1rem,
+  ),
+  100: (
+    calc(100 / 16) * 1rem,
+  ),
+  130: (
+    calc(130 / 16) * 1rem,
+  ),
+  150: (
+    calc(150 / 16) * 1rem,
+  ),
+  170: (
+    calc(170 / 16) * 1rem,
+  ),
+  200: (
+    calc(200 / 16) * 1rem,
+  ),
+);
+
+$display-1: (
+  xs: 40,
+  sm: 70,
+  md: 100,
+  lg: 100,
+  xl: 150,
+  xxl: 300,
+);
+
+$display-2: (
+  xs: 35,
+  sm: 50,
+  md: 60,
+  lg: 50,
+  xl: 70,
+);
+
+$display-sizes: (
+  1: $display-1,
+  2: $display-2,
+);
+
+$headline-1: (
+  xs: 17,
+  sm: 30,
+  md: 40,
+  lg: 50,
+  xl: 60,
+);
+
+$headline-2: (
+  xs: 20,
+  sm: 20,
+  md: 20,
+  lg: 30,
+  xl: 40,
+);
+
+$headline-sizes: (
+  1: $headline-1,
+  2: $headline-2,
+);
+
+$subheadline-sizes: (
+  sm: 20,
+  md: 20,
+  lg: 30,
+  xl: 40,
+);
+
+$body-1: (
+  sm: 15,
+  md: 15,
+  lg: 15,
+  xl: 20,
+);
+$body-2: (
+  sm: 15,
+  md: 15,
+  lg: 15,
+  xl: 20,
+);
+
+$body-sizes: (
+  1: $body-1,
+  2: $body-2,
+);
+
+$button-sizes: (
+  xs: 10,
+  sm: 15,
+  md: 15,
+  lg: 15,
+  xl: 20,
+);
+
+$link-sizes: (
+  xs: 16,
+  sm: 16,
+  md: 16,
+  lg: 10,
+  xl: 15,
+);
+
+/*
+  Pixel Sizes
+*/
+
+$pixel-sizes: (
+  40: 40px,
+  60: 60px,
+  80: 80px,
+);

@@ -1,0 +1,33 @@
+.imageButton {
+  display: flex;
+  position: relative;
+
+  .image {
+    width: 100%;
+    height: auto;
+    align-self: flex-end;
+  }
+
+  .arrow {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+
+    &.red rect {
+      fill: $red;
+    }
+    &.blue rect {
+      fill: $blue;
+    }
+    &.yellow rect {
+      fill: $yellow;
+    }
+    &.yellow path {
+      stroke: $black;
+    }
+    &.black rect {
+      fill: $black;
+    }
+  }
+}

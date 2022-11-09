@@ -1,0 +1,15 @@
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @include media-match($breakpoint-name) {
+    .#{$breakpoint-name}\:hidden {
+      display: none !important;
+    }
+  }
+}
+
+.border-none{
+  border: none;
+}
+
+.background-none {
+  background: none;
+}

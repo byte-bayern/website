@@ -1,0 +1,27 @@
+$video-switch-breakpoint: lg;
+
+/* Desktop */
+.video-button {
+  position: sticky;
+  margin-bottom: calc(var(--pixel-size) * -3);
+}
+video[poster]{
+  display: none;
+}
+
+.video-button button {
+  cursor:pointer;
+}
+
+/*
+Mobile
+*/
+
+@include media-to($video-switch-breakpoint) {
+  .video-button {
+    margin-bottom: calc(var(--pixel-size) * -1);
+  }
+  video[poster]{
+  display: block;
+  }
+}

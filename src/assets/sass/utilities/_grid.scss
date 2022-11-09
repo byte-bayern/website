@@ -1,0 +1,46 @@
+/*
+  GRID
+*/
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  --gap: var(--grid-gap, 0);
+}
+
+.grid-center {
+  align-items: center;
+}
+
+@each $breakpoint, $value in $breakpoints {
+  @include media-up($breakpoint) {
+    @each $name, $value in $grid-gaps {
+      .#{infix($breakpoint)}grid-gap-#{$name} {
+        --grid-gap: #{$value};
+      }
+    }
+  } 
+}
+
+@each $breakpoint-name, $value in $breakpoints {
+  @include media-up($breakpoint-name) {
+    @for $column from 1 through $grid-columns {
+      .#{infix($breakpoint-name)}col {
+        flex: 0 1 auto;
+      }
+
+      .#{infix($breakpoint-name)}col-auto {
+        flex: 1 1 0px;
+      }
+
+      .#{infix($breakpoint-name)}col-min {
+        flex: 0 0 auto;
+      }
+
+      .#{infix($breakpoint-name)}col-#{$column} {
+        flex: 0 0 calc(100% / $grid-columns) * $column;
+        max-width: calc(100% / $grid-columns) * $column;
+        padding: calc(var(--gap) / 2);
+      }
+    }
+  }
+}

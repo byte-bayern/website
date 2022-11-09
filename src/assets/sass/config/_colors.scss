@@ -1,0 +1,27 @@
+/*
+  Brand Colors
+*/
+
+// Primary
+$blue: #00b1eb;
+$yellow: #ffe120;
+$red: #e30613;
+
+// Typo, Icon, Background
+$black: #000000;
+$white: #ffffff;
+
+// Status
+$green: #adbb34;
+$orange: #f5a623;
+$grey: #d8d7d7;
+
+// Background 
+
+.bc-blue { 
+  background-color: $blue !important;
+}
+
+.bc-yellow { 
+  background-color: $yellow !important;
+}

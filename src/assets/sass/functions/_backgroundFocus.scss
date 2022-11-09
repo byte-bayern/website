@@ -1,0 +1,3 @@
+@function background-focus($ratio, $bg, $box) {
+    @return (calc($bg + (50 - $box)/$ratio - 50) * calc($ratio / ($ratio - 1)) + 50) * 1%;
+  }

@@ -1,0 +1,65 @@
+.stickBlue {
+  position: fixed !important;
+  top: 40%;
+  right: 0;
+  z-index: 1;
+  max-width: 40px;
+}
+.rsbtn {
+  margin-top: 20px;
+}
+
+/* readspeaker (so many importants because overwriting the style of readspeaker) */
+.rsbtn .rsbtn_tooltoggle {
+  display: none !important;
+}
+.rsbtn .rsbtn_play .rsbtn_left.rsimg {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.rsbtn_text {
+  color: $white !important;
+}
+.rsbtn_play {
+  border: none !important;
+  height: 40px !important;
+  width: 40px !important;
+}
+
+.rsbtn .rsbtn_play .rsbtn_left .rsbtn_text::before {
+  font-size: 2.2em !important ;
+  top: 5px !important ;
+  left: 5px !important ;
+}
+
+/* font increase/decrease */
+.textBigger,
+.textSmaller {
+  color: white;
+  font-weight: 600;
+  background-color: $blue;
+  font-weight: $font-weight-semi-bold !important;
+  font-size: 25px !important;
+}
+
+.font-size-changer,
+.font-size-changer-buttons {
+  width: 40px !important;
+  height: 80px !important;
+}
+
+.font-size-up,
+.font-size-down {
+  margin-bottom: 10px !important;
+  border: none !important;
+  background-color: $blue;
+}
+
+/* contrast */
+.contrast-btn {
+  margin-bottom: 10px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}

@@ -1,0 +1,74 @@
+$quote-switch-breakpoint: lg;
+
+/* Desktop */
+.quote {
+  .quote-image {
+    object-fit: cover;
+  }
+  .quote-text {
+    height: 100%;
+  }
+  .quote-text-bottom,
+  .quote-text-top {
+    width: 100%;
+  }
+}
+
+.quote.left {
+  > .body-1 > .quote-text > .quote-text-bottom {
+    background-color: $blue;
+  }
+  .body-1 {
+    order: 2;
+  }
+  .quote-image {
+    order: 1;
+  }
+}
+
+.quote.right {
+  > .body-1 > .quote-text > .quote-text-bottom {
+    background-color: $yellow;
+  }
+  .body-1 {
+    order: 1;
+  }
+  .quote-image {
+    order: 2;
+  }
+}
+
+/*
+Mobile
+*/
+
+@include media-to($quote-switch-breakpoint) {
+  .quote.left {
+    > .body-1 > .quote-text {
+      background-color: $blue;
+    }
+  }
+
+  .quote.right {
+    > .body-1 > .quote-text {
+      background-color: $yellow;
+    }
+    .body-1 {
+      order: 2;
+    }
+    .quote-image {
+      order: 1;
+    }
+  }
+}
+
+@include media-to(lg) {
+  #quote-minister-soder {
+    padding-bottom: 25px;
+    background-color: $blue;
+  }
+  #quote-minister-gerlach {
+    padding-bottom: 25px;
+    background-color: $yellow;
+  }
+}

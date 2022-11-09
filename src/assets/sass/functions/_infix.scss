@@ -1,0 +1,9 @@
+@function infix($breakpoint) {
+  $value: map-get($breakpoints, $breakpoint);
+
+  @if $value > 0 {
+    @return #{$breakpoint}\:;
+  } @else {
+    @return "";
+  }
+}

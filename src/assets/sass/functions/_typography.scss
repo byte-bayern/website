@@ -1,0 +1,3 @@
+@function fs($size) {
+  @return map-get($font-sizes, $size);
+}

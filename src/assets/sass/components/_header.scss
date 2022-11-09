@@ -1,0 +1,30 @@
+$header-switch-breakpoint: lg;
+
+.header {
+  height: 100%;
+
+  &-image {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+  }
+}
+
+/*
+  Desktop Behavior
+*/
+@include media-up($header-switch-breakpoint) {
+  .header-left {
+    order: 1;
+  }
+
+  .header-right {
+    order: 2;
+  }
+
+  .header-button-wrapper {
+    display: flex;
+    flex-direction: row;
+  }
+}

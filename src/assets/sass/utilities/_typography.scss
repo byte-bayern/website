@@ -1,0 +1,176 @@
+/*
+  Typographic Setup
+*/
+
+* {
+  font-family: $font-family-default;
+}
+
+/*
+  Font sizes
+*/
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @include media-up($breakpoint-name) {
+    @each $font-size-name, $font-size-value in $font-sizes {
+      .#{infix($breakpoint-name)}fs-#{$font-size-name} {
+        font-size: $font-size-value;
+      }
+    }
+  }
+}
+
+/*
+  Display sizes
+*/
+
+@each $display-name, $display-value in $display-sizes {
+  .display-#{$display-name} {
+    @each $display-breakpoint, $display-size in $display-value {
+      @include media-up($display-breakpoint) {
+        font-size: fs($display-size);
+        line-height: $line-height-sm;
+        font-weight: $font-weight-bold;
+        text-transform: uppercase;
+        margin: 0;
+      }
+    }
+  }
+}
+/*
+ Headline sizes
+*/
+
+@each $headline-name, $headline-value in $headline-sizes {
+  .headline-#{$headline-name} {
+    @each $headline-breakpoint, $headline-size in $headline-value {
+      @include media-up($headline-breakpoint) {
+        font-size: fs($headline-size);
+        line-height: $line-height-md;
+        font-weight: $font-weight-semi-bold;
+        margin: 0;
+      }
+    }
+  }
+}
+
+/*
+ Subheadline sizes
+*/
+.fs-subheadline {
+  @each $breakpoint, $size in $subheadline-sizes {
+    @include media-up($breakpoint) {
+      font-size: fs($size);
+      margin: 0;
+    }
+  }
+}
+
+/*
+ Body sizes
+*/
+
+@each $display-name, $display-value in $body-sizes {
+  .body-#{$display-name} {
+    @each $display-breakpoint, $body-sizes in $display-value {
+      @include media-up($display-breakpoint) {
+        font-size: fs($body-sizes);
+        line-height: $line-height-default;
+        font-weight: $font-weight-normal;
+        margin: 0;
+      }
+    }
+  }
+}
+
+/*
+  Button sizes
+*/
+
+.fs-button {
+  @each $breakpoint, $size in $button-sizes {
+    @include media-up($breakpoint) {
+      font-size: fs($size);
+      line-height: $line-height-default;
+      font-weight: $font-weight-semi-bold;
+    }
+  }
+}
+/*
+  Link sizes
+*/
+
+.fs-link {
+  @each $breakpoint, $size in $link-sizes {
+    @include media-up($breakpoint) {
+      font-size: fs($size);
+      line-height: $line-height-default;
+      font-weight: $font-weight-semi-bold;
+      text-transform: uppercase;
+    }
+  }
+}
+
+/*
+  Font Weights
+*/
+
+.fw-normal {
+  font-weight: $font-weight-normal;
+}
+
+.fw-semi-bold {
+  font-weight: $font-weight-semi-bold;
+}
+
+.fw-bold {
+  font-weight: $font-weight-bold;
+}
+
+/*
+  Transforms
+*/
+
+.tt-uppercase {
+  text-transform: uppercase;
+}
+.t-right {
+  text-align: right;
+}
+.t-left {
+  text-align: left;
+}
+.t-center {
+  text-align: right;
+}
+.t-nowrap {
+  white-space: nowrap;
+}
+/*
+  Font Colors
+*/
+.tc-blue {
+  color: $blue;
+}
+
+.tc-white {
+  color: white;
+}
+.tc-black {
+  color: black;
+}
+
+/*
+  Pixel Sizes
+  sets --pixel-size custom property variable.
+*/
+
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @include media-up($breakpoint-name) {
+    @each $pixel-size-name, $pixel-size-value in $pixel-sizes {
+      .#{infix($breakpoint-name)}ic-#{$pixel-size-name} {
+        --pixel-size: #{$pixel-size-value};
+      }
+    }
+  }
+}

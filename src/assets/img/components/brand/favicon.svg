@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="201" height="200"><svg width="201" height="200" viewBox="0 0 201 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M100.211 115.2L69.8108 115.2L69.8108 145.6L100.211 145.6L100.211 115.2Z" fill="#FFDD00"></path>
+<path d="M161.012 84.7998L130.612 84.7998L130.612 115.2L161.012 115.2L161.012 84.7998Z" fill="#A1DAF8"></path>
+<path d="M161.012 54.3999L130.612 54.3999L130.612 84.8L161.012 84.8L161.012 54.3999Z" fill="#00B1EB"></path>
+<rect width="30.4001" height="30.4001" transform="matrix(-1 2.18557e-08 2.18557e-08 1 161.012 115.2)" fill="#D4EDFC"></rect>
+<rect width="30.4001" height="30.4001" transform="matrix(-1 2.18557e-08 2.18557e-08 1 130.613 115.2)" fill="#A1DAF8"></rect>
+<path d="M161.012 145.6L130.612 145.6L145.812 160.8L161.012 176L161.012 145.6Z" fill="#5BC5F2"></path>
+<rect width="30.4001" height="30.4001" transform="matrix(-1 2.18557e-08 2.18557e-08 1 100.211 84.7998)" fill="#D8F0FF"></rect>
+<rect width="30.4001" height="30.4001" transform="matrix(-1 2.18557e-08 2.18557e-08 1 130.613 54.3999)" fill="#5BC5F2"></rect>
+<rect width="30.4001" height="30.4001" transform="matrix(-1 2.18557e-08 2.18557e-08 1 69.8125 23.9995)" fill="black"></rect>
+<rect width="30.4001" height="30.4001" transform="matrix(-1 2.18557e-08 2.18557e-08 1 130.613 84.7998)" fill="#E30613"></rect>
+</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
+</style></svg>

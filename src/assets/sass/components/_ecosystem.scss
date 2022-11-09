@@ -1,0 +1,7 @@
+@include media-to(md) {
+  #ecosystem {
+    .button {
+      --grid-template-areas: "vred icon ."!important;
+    }
+  }
+}

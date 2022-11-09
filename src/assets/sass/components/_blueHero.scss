@@ -1,0 +1,25 @@
+.blue-hero {
+  position: relative;
+  background-color: $blue;
+
+  &-image {
+    width: 100%;
+    mix-blend-mode: multiply;
+    display: block;
+  }
+
+  &-text {
+    height: 100%;
+    position: absolute;
+    
+    &-left {
+      top: 0;
+      left: 0;
+    }
+    
+    &-right {
+      bottom: 0;
+      right: 0;
+    }
+  }
+}

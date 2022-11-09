@@ -1,0 +1,21 @@
+#time li:not(:last-child),
+#success li:not(:last-child),
+#process li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+#benefits li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.stickBlue > li {
+  list-style-type: none;
+}
+
+.section-footer li {
+  list-style-type: none;
+}
+
+#process li {
+  margin-left: 20px;
+}

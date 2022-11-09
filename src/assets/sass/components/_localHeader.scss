@@ -1,0 +1,42 @@
+$local-header-switch-breakpoint: lg;
+
+.local-header {
+  &--title {
+    color: $blue;
+  }
+
+  &--button {
+    flex-direction: column;
+    align-self: flex-end;
+    order: 2;
+
+    &---info {
+      background-clip: content-box;
+      background-color: $yellow;
+      display: flex;
+      align-items: center;
+      max-width: 100%;
+      height: var(--pixel-size, 80px);
+      padding-right: var(--pixel-size, 80px);
+      white-space: nowrap;
+      align-self: end;
+
+      @each $breakpoint, $value in $button-widths {
+        @include media-up($breakpoint) {
+          width: $value;
+        }
+      }
+
+      @include media-up($local-header-switch-breakpoint) {
+        transform: translateX(calc(-1 * var(--pixel-size, 80px)));
+        padding-right: 0;
+      }
+    }
+  }
+
+  &--text {
+    display: flex;
+    flex-direction: column;
+    order: 1;
+  }
+}

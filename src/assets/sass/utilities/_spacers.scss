@@ -1,0 +1,144 @@
+@each $breakpoint-name, $breakpoint-value in $breakpoints {
+  @include media-up($breakpoint-name) {
+    @each $spacer-name, $spacer-value in $spacers {
+      /*
+        MARGIN – #{$spacer-name}
+      */
+      .#{infix($breakpoint-name)}m-#{$spacer-name} {
+        margin: #{$spacer-value};
+      }
+      .#{infix($breakpoint-name)}m-a {
+        margin: auto;
+      }
+      /*
+        PADDING – #{$spacer-name}
+      */
+      .#{infix($breakpoint-name)}p-#{$spacer-name} {
+        padding: #{$spacer-value};
+      }
+      .#{infix($breakpoint-name)}pt-#{$spacer-name} {
+        padding-top: #{$spacer-value};
+      }
+      .#{infix($breakpoint-name)}pr-#{$spacer-name} {
+        padding-right: #{$spacer-value};
+      }
+      .#{infix($breakpoint-name)}pb-#{$spacer-name} {
+        padding-bottom: #{$spacer-value};
+      }
+      .#{infix($breakpoint-name)}pl-#{$spacer-name} {
+        padding-left: #{$spacer-value};
+      }
+      .#{infix($breakpoint-name)}px-#{$spacer-name} {
+        padding-left: #{$spacer-value};
+        padding-right: #{$spacer-value};
+      }
+      .#{infix($breakpoint-name)}py-#{$spacer-name} {
+        padding-top: #{$spacer-value};
+        padding-bottom: #{$spacer-value};
+      }
+    }
+  }
+}
+
+@each $padding-name, $padding-value in $padding-types {
+  @each $breakpoint-name, $breakpoint-value in $breakpoints {
+    @include media-up($breakpoint-name) {
+      @each $breakpoint, $spacer-value in $padding-value {
+        @include media-up($breakpoint) {
+          .#{infix($breakpoint-name)}p-#{$padding-name} {
+            padding: #{$spacer-value} #{$spacer-value};
+          }
+          .#{infix($breakpoint-name)}pr-#{$padding-name} {
+            padding-right: #{$spacer-value};
+            padding-top: 0;
+            padding-left: 0;
+            padding-bottom: 0;
+          }
+          .#{infix($breakpoint-name)}pl-#{$padding-name} {
+            padding-left: #{$spacer-value};
+            padding-top: 0;
+            padding-right: 0;
+            padding-bottom: 0;
+          }
+          .#{infix($breakpoint-name)}pt-#{$padding-name} {
+            padding-right: 0;
+            padding-top: #{$spacer-value};
+            padding-left: 0;
+            padding-bottom: 0;
+          }
+          .#{infix($breakpoint-name)}pb-#{$padding-name} {
+            padding-left: 0;
+            padding-top: 0;
+            padding-right: 0;
+            padding-bottom: #{$spacer-value};
+          }
+          .#{infix($breakpoint-name)}ptl-#{$padding-name} {
+            padding-right: 0;
+            padding-top: #{$spacer-value};
+            padding-left: #{$spacer-value};
+            padding-bottom: 0;
+          }
+          .#{infix($breakpoint-name)}ptr-#{$padding-name} {
+            padding-right: #{$spacer-value};
+            padding-top: #{$spacer-value};
+            padding-left: 0;
+            padding-bottom: 0;
+          }
+          .#{infix($breakpoint-name)}px-#{$padding-name} {
+            padding-left: #{$spacer-value};
+            padding-right: #{$spacer-value};
+            padding-top: 0;
+            padding-bottom: 0;
+          }
+          .#{infix($breakpoint-name)}py-#{$padding-name} {
+            padding-top: #{$spacer-value};
+            padding-bottom: #{$spacer-value};
+          }
+          .#{infix($breakpoint-name)}pyl-#{$padding-name} {
+            padding-top: #{$spacer-value};
+            padding-bottom: #{$spacer-value};
+            padding-left: #{$spacer-value};
+            padding-right: 0;
+          }
+          .#{infix($breakpoint-name)}pyr-#{$padding-name} {
+            padding-top: #{$spacer-value};
+            padding-bottom: #{$spacer-value};
+            padding-left: 0;
+            padding-right: #{$spacer-value};
+          }
+          .#{infix($breakpoint-name)}pxt-#{$padding-name} {
+            padding-left: #{$spacer-value};
+            padding-right: #{$spacer-value};
+            padding-top: #{$spacer-value};
+            padding-bottom: 0;
+          }
+          .#{infix($breakpoint-name)}pxb-#{$padding-name} {
+            padding-left: #{$spacer-value};
+            padding-right: #{$spacer-value};
+            padding-top: 0;
+            padding-bottom: #{$spacer-value};
+          }
+        }
+      }
+    }
+  }
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.width-100 {
+  width: 100%;
+}
+.height-100 {
+  height: 100%;
+}
