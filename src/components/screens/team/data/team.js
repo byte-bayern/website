@@ -10,6 +10,8 @@ import Hendrik from "../../../../assets/img/components/team/HS.png";
 import Nhien from "../../../../assets/img/components/team/NT.png";
 import Beatrix from "../../../../assets/img/components/team/BU.png";
 import Antonia from "../../../../assets/img/components/team/AZ.png";
+import Florian from "../../../../assets/img/components/team/FB.png";
+import Luis from "../../../../assets/img/components/team/LM.jpg";
 import Assistence from "../../../../assets/img/components/team/Assistence.png";
 import Legal from "../../../../assets/img/components/team/Legal.png";
 
@@ -96,6 +98,20 @@ let members = [
         pic: Antonia,
         link: "https://www.linkedin.com/in/antoniazierer/",
         buttonIconColor: "blue",
+    },
+    {
+        name: "Florian Baumann",
+        title: "Head Of Communication",
+        pic: Florian,
+        link: "https://www.linkedin.com/in/fmbaumann/",
+        buttonIconColor: "black",
+    },
+    {
+        name: "Luis Moßburger",
+        title: "Referent für digitale Transformationsprojekte",
+        pic: Luis,
+        link: "https://www.linkedin.com/in/luis-mo%C3%9Fburger-7a3a63241/",
+        buttonIconColor: "red",
     },
     {
         name: "Assistent der Geschäftsführung",
