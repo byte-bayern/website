@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../../shared/button";
-import header from "../../../assets/img/components/apply/Apply.jpg";
+import header from "../../../assets/img/components/apply/apply.jpg";
 
 export default function Apply() {
   return (
