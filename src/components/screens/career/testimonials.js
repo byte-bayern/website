@@ -1,5 +1,4 @@
 import React from "react";
-import VerticalTile from "../../shared/verticalTile";
 import LC from "../../../assets/img/components/team/LC.png";
 import NT from "../../../assets/img/components/team/NT.png";
 import HS from "../../../assets/img/components/team/HS.png";

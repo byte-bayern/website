@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "../../shared/button";
 import header from "../../../assets/img/components/header/Team.png";
 
 export default function Header() {

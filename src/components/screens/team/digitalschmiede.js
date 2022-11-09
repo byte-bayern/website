@@ -1,11 +1,10 @@
 import React from "react";
 import { PixelsIntro } from "../../../assets/img/icons";
-import ColumnText from "../../shared/columnText";
 import Button from "../../shared/button";
 
 export default function Digitalschmiede() {
   return (
-    <section data-aos="fade-up" data-aos-duration="3000" data-aos="fade-up" data-aos-duration="3000"  id="introduction" >
+    <section data-aos="fade-up" data-aos-duration="3000"  id="introduction" >
       <div className="grid p-grid-standard xs:grid-gap-20 md:grid-gap-50 lg:grid-gap-100 content">
         <div className="col-12 headline-1 tc-blue">Die Digitalschmiede Bayern</div>
         <div className="grid content">

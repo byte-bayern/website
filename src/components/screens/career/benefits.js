@@ -3,7 +3,6 @@ import VerticalTile from "../../shared/verticalTile";
 import {
   Calendar,
   Agile,
-  Campus,
   Money,
   Network,
   Person,

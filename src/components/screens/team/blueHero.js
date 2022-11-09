@@ -1,7 +1,5 @@
 import React from "react";
-import SplitText from "../../shared/splitText";
 import hero from "../../../assets/img/components/hero/blueTeam.png";
-import Button from "../../shared/button";
 
 export default function BlueHero() {
   return (
