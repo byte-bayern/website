@@ -37,22 +37,6 @@ export default function Toolbar({ contrast, setContrast }) {
             }}
           />
         )}</li>
-        <li id="readspeaker_button1" className="rs_skip rsbtn rs_preserve">
-          <button name="Lesen" className="border-none"> 
-            <a
-            rel="nofollow"
-            className="rsbtn_play bc-blue "
-            accessKey="L"
-            title="Um den Text anzuh&ouml;ren, verwenden Sie bitte ReadSpeaker webReader"
-            href="//app-eu.readspeaker.com/cgi-bin/rsent?customerid=12745&amp;lang=de_de&amp;readid=defaultLayout&amp;url=https://digitalschmiede.bayern/"
-          >
-            <span className="rsbtn_left rsimg rspart">
-              <span className="rsbtn_text">
-                <span></span>
-              </span>
-            </span>
-          </a></button>
-        </li>
       </ul>
     </>
   );
