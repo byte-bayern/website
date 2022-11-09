@@ -5,7 +5,7 @@ import header from "../../../assets/img/components/apply/Apply.jpg";
 export default function Apply() {
   return (
     <section data-aos="fade-up" data-aos-duration="3000" id="header">
-       <header className={`header content grid xs:py-standard md:pb-grid-standard`}>
+       <div className={`header content grid p-grid-standard xs:py-standard md:pb-grid-standard`}>
           <div className={`col-12 lg:col-6 header- xs:p-grid-standard lg:pyr-grid-standard`}>
             <div className="grid xs:grid-gap-20 md:grid-gap-50 lg:grid-gap-100 justify-end height-100 align-center">
               <div className="col-12">
@@ -38,7 +38,7 @@ export default function Apply() {
               alt=""
             />
           </div>
-        </header>
+        </div>
     </section>
   );
 }
