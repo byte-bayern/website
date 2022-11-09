@@ -57,19 +57,27 @@ let benefits = [
 export default function Benefits() {
   return (
     <section data-aos="fade-up" data-aos-duration="3000" id="facts">
-      <div className="grid p-grid-standard grid-gap-0 content">
-        {benefits.map((fact, index) => (
-          <div className="col-12 md:col-6 xl:col-4" key={index}>
-            <VerticalTile
-              component={<img width="80" height="80" src={fact.component} alt={fact.alt} />}
-              title={fact.title}
-              excerpt={{
-                content: fact.content,
-              }}
-            />
+      <div className="p-grid-standard content">
+      
+        <p className="display-2 tc-blue">
+          Einige unserer Benefits<br />
+        </p>
+        
+        <div className="grid grid-gap-0 p-grid-standard">
+          {benefits.map((fact, index) => (
+            <div className="col-12 md:col-6 xl:col-4" key={index}>
+              <VerticalTile
+                component={<img width="80" height="80" src={fact.component} alt={fact.alt} />}
+                title={fact.title}
+                excerpt={{
+                  content: fact.content,
+                }}
+              />
+            </div>
+          ))}
           </div>
-        ))}
-      </div>
+        </div>
+     
     </section>
   );
 }
