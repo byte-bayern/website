@@ -11,7 +11,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/assets/img/components/brand/favicon.svg",
+        icon: "src/assets/img/components/brand/favicon.png",
       },
     },
     {
