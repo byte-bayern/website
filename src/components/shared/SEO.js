@@ -10,7 +10,7 @@ function Seo({ title, lang, meta, keywords, pathname }) {
       render={(data) => {
         const metaDescription = data.site.siteMetadata.description;
         const metaTitle = data.site.siteMetadata.title;
-        const metaKeywords = data.site.siteMetadata.keywords;
+        const metaKeywords = data.site.siteMetadata.metaKeywords;
 
         const canonical = pathname
           ? `${data.site.siteMetadata.siteUrl}${pathname}`
@@ -78,10 +78,7 @@ Seo.propTypes = {
   meta: PropTypes.array,
   description: PropTypes.string,
   title: PropTypes.string,
-  author: PropTypes.string,
-  image: PropTypes.string,
   keywords: PropTypes.arrayOf(PropTypes.string),
-  pathname: PropTypes.string,
 };
 
 export default Seo;
@@ -92,10 +89,8 @@ const detailsQuery = graphql`
       siteMetadata {
         title
         description
-        author
-        twitterAuthor
-        image
         siteUrl
+        metaKeywords
       }
     }
   }
