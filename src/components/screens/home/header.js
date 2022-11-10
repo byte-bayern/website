@@ -28,7 +28,7 @@ export default function Header() {
           </div>
           <div className={`col-12 lg:col-6 header-left`}>
             <img
-              className={`header-image img-h-400 `}
+              className={`header-image img-h-400`}
               src={header}
               alt=""
             />

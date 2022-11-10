@@ -5,7 +5,7 @@ import members from "./data/team";
 export default function Team() {
   return (
     <section id="team">
-      <div className="grid grid-gap-0 p-grid-standard content ic-40 xl:ic-80">
+      <div className="grid grid-gap-0 p-grid-standard content ic-40">
         {members.map((member, index) => (
           <Card data-aos="fade-up" data-aos-duration="3000" key={index} member={member} />
         ))}

@@ -27,13 +27,13 @@ let roles = [
 ];
 export default function Testimonials() {
   return (
-    <section data-aos="fade-up" data-aos-duration="3000" className="roles ic-40 xl:ic-80 content">
+    <section data-aos="fade-up" data-aos-duration="3000" className="roles ic-40 content">
       <p className="display-2 tc-blue px-standard">
         Insights aus dem Team<br />
       </p>
       <div className="grid grid-gap-0  p-grid-standard">
         {roles.map((role, index) => (
-          <div key={index} className="col-12 md:col-6 xl:col-4">
+          <div key={index} className="col-12 md:col-6">
                 <div className="grid xs:grid-gap-20 md:grid-gap-50 lg:grid-gap-100">
                   <div className="col-12">
                     <div className="pb-20">

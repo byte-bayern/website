@@ -15,7 +15,7 @@ export default function LocalHeader(props) {
   } = props;
 
   return (
-    <div className="grid xs:grid-gap-20 md:grid-gap-50 lg:grid-gap-100 local-header pxt-grid-standard content ic-40 xl:ic-80">
+    <div className="grid xs:grid-gap-20 md:grid-gap-50 lg:grid-gap-100 local-header pxt-grid-standard content ic-40">
       {buttonInfoText ? (
         <div className="local-header--button col-12 lg:col-5 pt-20 grid">
           <div className="local-header--button---info">

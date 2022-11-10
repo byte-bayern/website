@@ -36,7 +36,7 @@ export default function Facts() {
     <section data-aos="fade-up" data-aos-duration="3000" id="facts">
       <div className="grid p-grid-standard grid-gap-0 content">
         {facts.map((fact, index) => (
-          <div className="col-12 md:col-6 xl:col-4" key={index}>
+          <div className="col-12 md:col-6" key={index}>
             <VerticalTile
               component={<img width="80" height="80" src={fact.component} alt={fact.alt} />}
               title={fact.title}

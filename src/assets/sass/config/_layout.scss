@@ -7,9 +7,7 @@ $breakpoints: (
   xs: 320px,
   sm: 425px,
   md: 768px,
-  lg: 1024px,
-  xl: 1440px,
-  xxl: 2560px,
+  lg: 1024px
 );
 
 $breakpoint-values: map-values($breakpoints);
@@ -20,8 +18,7 @@ $padding-standard: (
   xs: 35px,
   sm: 35px,
   md: 50px,
-  lg: 100px,
-  xl: 150px,
+  lg: 100px
 );
 
 /*padding when used with grid gap*/
@@ -29,8 +26,7 @@ $padding-grid-standard: (
   xs: 25px,
   sm: 25px,
   md: 25px,
-  lg: 50px,
-  xl: 100px,
+  lg: 50px
 );
 
 $padding-types: (
@@ -61,7 +57,7 @@ $grid-gaps: (
   ),
   100: (
     calc(100 / 16) * 1rem,
-  ),
+  )
 );
 
 $grid-columns: 12 !default;
@@ -100,15 +96,12 @@ $spacers: (
   100: (
     calc(100 / 16) * 1rem,
   ),
-  lg: 5%,
-  xl: 8%,
+  lg: 5%
 );
 
 $button-widths: (
   xs: 360px,
   sm: 360px,
   md: 360px,
-  lg: 360px,
-  xl: 560px,
-  xxl: 560px,
+  lg: 360px
 );

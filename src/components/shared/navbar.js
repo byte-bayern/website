@@ -46,7 +46,7 @@ export default function Navbar() {
         <div
           className={`navbar-${navbarClass} grid  grid-gap-20 md:grid-gap-50 lg:grid-gap-50`}
         >
-          <div className="navbar-brand nav-item col-8 lg:col-2 lg:m-a lg:pl-0">
+          <div className="navbar-brand nav-item col-8 lg:col-2 lg:m-a pl-0">
             <Link to="/">
               <img
                 alt="Link zu Startseite"

@@ -5,7 +5,7 @@ import React from "react";
 export default function Card(props) {
   const { member } = props;
   return (
-    <div className="col-12 sm:col-6 md:col-6 xl:col-4">
+    <div className="col-12 sm:col-6 md:col-6">
       <VerticalTile
         component={
           <ImageButton

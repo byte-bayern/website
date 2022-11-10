@@ -65,7 +65,7 @@ export default function Benefits() {
         
         <div className="grid grid-gap-0 p-grid-standard">
           {benefits.map((fact, index) => (
-            <div className="col-12 md:col-6 xl:col-4" key={index}>
+            <div className="col-12 md:col-6" key={index}>
               <VerticalTile
                 component={<img width="80" height="80" src={fact.component} alt={fact.alt} />}
                 title={fact.title}

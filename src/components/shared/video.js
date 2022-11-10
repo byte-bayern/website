@@ -22,7 +22,7 @@ export default function SharedVideo(props) {
 
   return (
     <section data-aos="fade-up" data-aos-duration="3000" id="video">
-      <div className="ic-40 xl:ic-80 content xs:py-standard md:pb-grid-standard">
+      <div className="ic-40 content xs:py-standard md:pb-grid-standard">
         {props.video && props.clickHandler ? (
           <div onClick={props.clickHandler}>
             <video

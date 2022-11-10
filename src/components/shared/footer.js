@@ -35,13 +35,13 @@ class Footer extends React.Component {
           </div>
           <div className="footer-item legal">
             <ul className="grid body-1">
-              <li className="col-12 xl:col-4 py-10 xl:py-0">
+              <li className="col-12  py-10 ">
                 <Link to="/imprint">Impressum</Link>
               </li>
-              <li className="col-12 xl:col-4 py-10 xl:py-0">
+              <li className="col-12  py-10 ">
                 <Link to="/data-privacy">Datenschutz</Link>
               </li>
-              <li className="col-12 xl:col-4 py-10 xl:py-0">
+              <li className="col-12  py-10 ">
                 <Link to="/accessibility">Barrierefreiheit</Link>
               </li>
             </ul>
@@ -56,7 +56,7 @@ class Footer extends React.Component {
             </div>
 
           </div>
-          <div className="footer-item footer-button ic-40 xl:ic-80">
+          <div className="footer-item footer-button ic-40">
             <a href="#header" id="footer-button">
               <img className="icon" src={Up} alt="nach oben"></img>
               <div className="btn-text body-1">Nach oben</div>

@@ -22,9 +22,6 @@
     white-space: nowrap;
   }
 
-  @include media-up(xl) {
-    --button-grid-item-size: var(--pixel-size, 80px);
-  }
 
   @include media-to(md) {
     &.withText{
