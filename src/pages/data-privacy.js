@@ -54,26 +54,17 @@ const IndexPage = () => {
         </p>
         <h3 className="pb-10 pt-20">Empfänger von personenbezogenen Daten</h3>
         <p>
-          Der technische Betrieb unserer Datenverarbeitungssysteme erfolgt durch:<br/><br/>
-
-          UnternehmerTUM GmbH<br/>
-          Lichtenbergstr. 6<br/>
-          85748 Garching b. München 
-        </p>
-        <p className="pt-20">
-          <strong>Vertreten durch</strong>
-          <br/>
-          Prof. Dr. Helmut Schönenberger (CEO)<br/>
-          Claudia Frey<br/>
-          Stefan Drüssler<br/>
-          Thomas Zeller
-        </p>
-        <p className="pt-20">
-          <strong>Kontakt</strong>
-          <br/>
-          +49 89-18 94 69-0<br/>
-          +49 89-18 94 69-1199<br/>
-          <a href="mailto:info@unternehmertum.de">info@unternehmertum.de</a>
+          byte - Bayerische Agentur für Digitales GmbH<br />
+          Oskar-von-Miller-Ring 35
+          <br />
+          80333 München
+          <br />
+          Telefon: 0162 / 2019793
+          <br />
+          E-Mail:{' '}
+          <a href="mailto:kontakt@byte.bayern">
+            kontakt@byte.bayern
+          </a>
         </p>
         <p className="pt-20">
           Gegebenenfalls werden Ihre Daten an die zuständigen Aufsichts- und Rechnungsprüfungsbehörden zur Wahrnehmung der jeweiligen Kontrollrechte übermittelt.
@@ -113,17 +104,6 @@ const IndexPage = () => {
 
 
         <h2 className="pt-50 pb-20">Hinweise zum Internetangebot</h2>
-        <h3 className="pb-10">Technische Umsetzung</h3>
-        <p>
-        Der technische Betrieb dieser Webseite erfolgt durch:
-        <br/><br/>
-        UnternehmerTUM GmbH<br/>
-        Lichtenbergstr. 6<br/>
-        85748 Garching b. München<br/>
-        +49 89-18 94 69-0<br/>
-        +49 89-18 94 69-1199<br/>
-        <a href="mailto:kontakt@unternehmertum.de">kontakt@unternehmertum.de</a>
-        </p>
 
         <h3 className="pb-10">Protokollierung</h3>
         <p>

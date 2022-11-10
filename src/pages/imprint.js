@@ -42,35 +42,6 @@ const IndexPage = () => {
           <br/>
           Namentlich gekennzeichnete Internetseiten geben die Auffassungen und Erkenntnisse der genannten Personen wieder.
         </p>
-        <h2 className="pt-50 pb-20">Laufender Technischer Betrieb / Technische Betreuung</h2>
-        <p>
-          UnternehmerTUM GmbH<br />
-          Lichtenbergstr. 6<br /> 
-          85748 Garching b. München
-        </p>
-        <h3 className="py-10">Vertreten durch</h3>
-        <p>
-          Prof. Dr. Helmut Schönenberger (CEO)
-          <br />
-          Claudia Frey
-          <br />
-          Stefan Drüssler
-          <br />
-          Dr. Andreas Liebl
-          <br />
-          Thomas Zeller
-          <br />
-        </p>
-        <h3 className="py-10">Kontakt</h3>
-        <p>
-          +49 89-18 94 69-0
-          <br />
-          +49 89-18 94 69-1199
-          <br />
-          <a href="mailto:info@unternehmertum.de">
-            info@unternehmertum.de
-          </a>
-        </p>
 
         <h2 className="pt-50 pb-20">Nutzungsbedingungen</h2>
         <p>
