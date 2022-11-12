@@ -64,8 +64,7 @@ export default function Navbar() {
               {open ? <Close /> : <Menu />}
             </button>
           </div>
-          <div className="navbar-nav lg:col-2 lg:m-a"></div>
-          <div className="navbar-nav fs-link col-12 lg:col-8
+          <div className="navbar-nav fs-link col-12 lg:col-10
            lg:m-a">
             <div className="grid grid-gap-0">
               {menuItems.map((item, index) => (
