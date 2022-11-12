@@ -10,6 +10,7 @@ export default function Team() {
         <CareerPage.Header />
         <CareerPage.Hero />
         <CareerPage.Offers />
+        <CareerPage.GetToKnow />
         <CareerPage.Benefits />
         <CareerPage.Now />
         <CareerPage.Apply />

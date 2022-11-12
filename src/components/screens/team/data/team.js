@@ -18,6 +18,13 @@ import Legal from "../../../../assets/img/components/team/Legal.png";
 
 let members = [
     {
+        name: "Florian Baumann",
+        title: "Head Of Communication",
+        pic: Florian,
+        link: "https://www.linkedin.com/in/fmbaumann/",
+        buttonIconColor: "black",
+    },
+    {
         name: "Dr. Christian Bemmerl",
         title: "Berater für digitale Transformationsprojekte",
         pic: Christian,
@@ -51,6 +58,13 @@ let members = [
         pic: Michael,
         link: "https://www.linkedin.com/in/michael-lassmann/",
         buttonIconColor: "yellow",
+    },
+    {
+        name: "Luis Moßburger",
+        title: "Referent für digitale Transformationsprojekte",
+        pic: Luis,
+        link: "https://www.linkedin.com/in/luis-mo%C3%9Fburger-7a3a63241/",
+        buttonIconColor: "red",
     },
     {
         name: "Svenja Nevermann",
@@ -98,20 +112,6 @@ let members = [
         pic: Antonia,
         link: "https://www.linkedin.com/in/antoniazierer/",
         buttonIconColor: "blue",
-    },
-    {
-        name: "Florian Baumann",
-        title: "Head Of Communication",
-        pic: Florian,
-        link: "https://www.linkedin.com/in/fmbaumann/",
-        buttonIconColor: "black",
-    },
-    {
-        name: "Luis Moßburger",
-        title: "Referent für digitale Transformationsprojekte",
-        pic: Luis,
-        link: "https://www.linkedin.com/in/luis-mo%C3%9Fburger-7a3a63241/",
-        buttonIconColor: "red",
     },
     {
         name: "Assistent der Geschäftsführung",

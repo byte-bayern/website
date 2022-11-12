@@ -6,7 +6,8 @@ import Now from "./now";
 import Apply from "./apply";
 import Testimonials from "./testimonials";
 import Contact from "./contact";
+import GetToKnow from "./get-to-know";
 
 export {
-  Header, Hero, Offers, Benefits, Now, Apply, Testimonials, Contact
+  Header, Hero, Offers, Benefits, Now, Apply, Testimonials, Contact, GetToKnow
 };
