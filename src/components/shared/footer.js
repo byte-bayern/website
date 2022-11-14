@@ -51,7 +51,9 @@ class Footer extends React.Component {
                 Gefördert durch: 
               </div>
               <div>
-                <img src={stmd} className="img-w-250"/>
+                <a href="https://www.stmd.bayern.de/" alt="Link zur Website des bayerischen Staatsminsiterium für Digitales" target="_blank">
+                  <img src={stmd} className="img-w-250"/>
+                </a>
               </div>
             </div>
 
