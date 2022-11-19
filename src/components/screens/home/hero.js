@@ -9,22 +9,22 @@ export default function Hero() {
       <div className="content py-standard">
         <div className="blue-hero">
           <img className="blue-hero-image" src={hero} alt=""></img>
-          <div className={`blue-hero-text tc-white blue-hero-text-left display-1 p-standard tt-uppercase`}>
+          <div className={`blue-hero-text tc-white blue-hero-text-left display-1 tt-uppercase pl-20 pt-20`}>
             <SplitText title={"Lerne\n unser Team\n kennen"} />
-            <div className="grid p-grid-standard grid-gap-0 ">
-        <div className="col-12">
-          <div className="header-button">
-            <Button
-              text="Zum Team"
-              gridTemplateAreas={`'. icon text' 'vblue . .'`}
-              textBackgroundColor="white"
-              textColor="black"
-              iconColor="black"
-              link="/team"
-            />
-          </div>
-        </div>
-      </div>
+            
+              <div className="col-12 pt-50">
+                <div className="header-button">
+                  <Button
+                    text="Zum Team"
+                    gridTemplateAreas={`'. icon text' 'vblue . .'`}
+                    textBackgroundColor="white"
+                    textColor="black"
+                    iconColor="black"
+                    link="/team"
+                  />
+                </div>
+              </div>
+        
           </div>
         </div>
       </div>

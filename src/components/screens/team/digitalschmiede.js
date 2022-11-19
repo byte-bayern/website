@@ -7,7 +7,7 @@ export default function Digitalschmiede() {
     <section data-aos="fade-up" data-aos-duration="3000"  id="introduction" >
       <div className="grid p-grid-standard xs:grid-gap-20 md:grid-gap-50 lg:grid-gap-100 content">
         <div className="col-12 headline-1 tc-blue">Die Digitalschmiede Bayern</div>
-        <div className="grid content">
+        
         <div className="col-12 lg:col-6 body-1">
           Mit unserem Programm Digitalschmiede Bayern befähigen wir interdisziplinäre Teams, <strong>nutzerzentrierte digitale Lösungen</strong> für konkrete Herausforderungen der <strong>bayerischen Verwaltung</strong> zu erarbeiten. Unser Ziel ist es, mit dem 3-monatigen Programm einerseits den digitalen Nachwuchs für den staatlichen Sektor zu begeistern und gleichzeitig den Ministerien neue Impulse für die Anwendung neuer Methoden zu geben.<br />
           <img
@@ -34,7 +34,7 @@ export default function Digitalschmiede() {
               </div>
         </div>
       </div>
-      </div>
+      
     </section>
   );
 }
