@@ -9,7 +9,7 @@ export default function Header() {
           <div className={`col-12 lg:col-6 header- xs:p-grid-standard lg:pyr-grid-standard`}>
             <div className="grid xs:grid-gap-20 md:grid-gap-50 lg:grid-gap-100 justify-end height-100 align-center">
               <div className="col-12">
-                <p className={`headline-1 pb-20`}>Wir gestalten die digitale Zukunft Bayerns.</p>
+                <h1 className={`headline-1 pb-20`}>Wir gestalten die digitale Zukunft Bayerns.</h1>
                 <p className={`pt-10 headline-2`}>Die byte - Bayerische Agentur für Digitales - stößt Digitalprojekte an und begleitet die bayerische Verwaltung bei der Umsetzung nutzerzentrierterter Lösungen.</p>
               </div>
               <div className="col-12">

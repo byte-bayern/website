@@ -15,7 +15,7 @@ export default function Byte() {
           <div className={`col-12 lg:col-6 header-left`}>
           <div className="grid xs:grid-gap-20 md:grid-gap-50 lg:grid-gap-100 justify-end height-100 align-center">
               <div className="col-12">
-                <p className={`tc-blue display-2`}>Wir sind die Bayerische Agentur für Digitales</p>
+                <h2 className={`tc-blue display-2`}>Wir sind die Bayerische Agentur für Digitales</h2>
               </div>
             </div>
           </div>

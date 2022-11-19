@@ -9,8 +9,8 @@ export default function Header() {
           <div className={`col-12 lg:col-6 header- xs:p-grid-standard lg:pyr-grid-standard`}>
             <div className="grid xs:grid-gap-20 md:grid-gap-50 lg:grid-gap-100 justify-end height-100 align-center">
               <div className="col-12">
-                <p className={`headline-1 pb-20`}>Wäre es nicht toll...</p>
-                <p className={`pt-20 headline-2`}>... mit uns zusammen die digitale Zukunft Bayerns zu gestalten und dabei etwas echtes zu bewirken?</p>
+                <h1 className={`headline-1 pb-20`}>Wäre es nicht toll...</h1>
+                <h2 className={`pt-20 headline-2`}>... mit uns zusammen die digitale Zukunft Bayerns zu gestalten und dabei etwas echtes zu bewirken?</h2>
               </div>
               <div className="col-12">
                 <div className="header-button">

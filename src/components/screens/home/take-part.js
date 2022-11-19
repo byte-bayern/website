@@ -16,7 +16,7 @@ export default function TakePart() {
           <div className={`col-12 lg:col-6 header-left`}>
             <div className="grid xs:grid-gap-20 md:grid-gap-50 lg:grid-gap-100 justify-end height-100 align-center">
               <div className="col-12">
-                <p className={`headline-1 pb-20`}>Mach mit! Und denke und gestalte Verwaltung neu mit uns!</p>
+                <h2 className={`headline-1 pb-20`}>Mach mit! Und denke und gestalte Verwaltung neu mit uns!</h2>
               </div>
               <div className="col-12">
                 <div className="header-button">
