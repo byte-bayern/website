@@ -20,7 +20,7 @@ let facts = [
     component: Agile,
     alt: "",
     content:
-      "Unser Ziel ist es, die Digitalisierung der Verwaltung mittels nutzerzentrierter Methoden für die Menschen in Bayern intuitiver, erlebbarer und nahbarer zu machen.",
+      "Wir gestalten die digitale Transformation der öffentlichen Verwaltung des Freistaates Bayern aktiv und menschzentriert.",
   },
   {
     title: "Unser Team",

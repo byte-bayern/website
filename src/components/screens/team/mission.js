@@ -14,7 +14,7 @@ export default function Mission() {
                     <strong>Unsere Mission:</strong>
                 </p>
                 <p>
-                    Wir gestalten die Digitalisierung der Verwaltung mittels nutzerzentrierter Methoden, um diese für und mit den Menschen in Bayern nahbarer zu machen und das Vertrauen in den Staat zu stärken.
+                    Wir gestalten die digitale Transformation der öffentlichen Verwaltung des Freistaates Bayern aktiv und menschzentriert.
                 </p>
             </>
             }
