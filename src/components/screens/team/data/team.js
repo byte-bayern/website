@@ -13,6 +13,10 @@ import Florian from "../../../../assets/img/components/team/FB.png";
 import Luis from "../../../../assets/img/components/team/LM.jpg";
 import Assistence from "../../../../assets/img/components/team/Assistence.png";
 import Legal from "../../../../assets/img/components/team/Legal.png";
+import Lisa from "../../../../assets/img/components/team/LE.png"
+import ChristianMichels from "../../../../assets/img/components/team/CM.png"
+import Lena from "../../../../assets/img/components/team/LK.png"
+import Veronika from "../../../../assets/img/components/team/VD.png"
 
 
 let members = [
@@ -42,7 +46,28 @@ let members = [
         title: "Beraterin für digitale Transformationsprojekte",
         pic: Laura,
         link: "https://www.linkedin.com/in/laura-crompton/",
+        buttonIconColor: "black",
+    },
+    {
+        name: "Veronika v. Dehn",
+        title: "Head of Corporate Development",
+        pic: Veronika,
+        link: "https://www.linkedin.com/in/veronika-von-dehn-b10971104/",
+        buttonIconColor: "yellow",
+    },
+    {
+        name: "Lisa Eckl",
+        title: "Referentin für digitale Projekte, Kommunikation & Marketing",
+        pic: Lisa,
+        link: "https://www.linkedin.com/in/lisa-sophie-eckl-46024615b/",
         buttonIconColor: "red",
+    },
+    {
+        name: "Lena Krampitz",
+        title: "Referentin der Geschäftsführung",
+        pic: Lena,
+        link: "https://www.linkedin.com/in/lena-krampitz-0266b0164/",
+        buttonIconColor: "blue",
     },
     {
         name: "Tino Kühnel",
@@ -57,6 +82,13 @@ let members = [
         pic: Michael,
         link: "https://www.linkedin.com/in/michael-lassmann/",
         buttonIconColor: "yellow",
+    },
+    {
+        name: "Christian Michels",
+        title: "Head of People and Culture",
+        pic: ChristianMichels,
+        link: "https://www.linkedin.com/in/christian-michels-2943b7164/",
+        buttonIconColor: "red",
     },
     {
         name: "Luis Moßburger",
