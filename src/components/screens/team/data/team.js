@@ -4,7 +4,6 @@ import Laura from "../../../../assets/img/components/team/LC.png";
 import Tino from "../../../../assets/img/components/team/TK.png";
 import Michael from "../../../../assets/img/components/team/ML.png";
 import Svenja from "../../../../assets/img/components/team/SN.png";
-import Birgit from "../../../../assets/img/components/team/BR.png";
 import Melissa from "../../../../assets/img/components/team/MR.png";
 import Hendrik from "../../../../assets/img/components/team/HS.png";
 import Nhien from "../../../../assets/img/components/team/NT.png";
@@ -72,11 +71,6 @@ let members = [
         pic: Svenja,
         link: "https://www.linkedin.com/in/svenja-n-a9760212b/",
         buttonIconColor: "yellow",
-    },
-    {
-        name: "Birgit Redl",
-        title: "Buchhaltungsfachkraft",
-        pic: Birgit,
     },
     {
         name: "Melissa Ruppel",
